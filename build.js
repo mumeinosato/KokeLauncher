@@ -4,10 +4,10 @@ const Platform = builder.Platform
 builder.build({
     targets: (process.argv[2] != null && Platform[process.argv[2]] != null ? Platform[process.argv[2]] : getCurrentPlatform()).createTarget(),
     config: {
-        appId: 'numalauncher',
-        productName: 'NumaLauncher',
+        appId: 'kokelauncher',
+        productName: 'KokeLauncher',
         artifactName: '${productName}-setup-${version}.${ext}',
-        copyright: 'Copyright © 2018-2020 Daniel Scalzi, 2020 TeamKUN',
+        copyright: 'Copyright © 2018-2020 Daniel Scalzi, 2020 TeamKUN, 2023 mumeinosato',
         directories: {
             buildResources: 'build',
             output: 'dist'
@@ -30,8 +30,8 @@ builder.build({
         },
         linux: {
             target: 'AppImage',
-            maintainer: 'Daniel Scalzi, TeamKUN',
-            vendor: 'Daniel Scalzi, TeamKUN',
+            maintainer: 'Daniel Scalzi, TeamKUN, mumeinosato',
+            vendor: 'Daniel Scalzi, TeamKUN, mumeinosato',
             synopsis: '沼でも使えるMinecraftランチャー',
             description: '参加型に参加するためのすべてがここに。Mod、コンフィグ、アップデートが全自動で揃います。',
             category: 'Game'

@@ -4,13 +4,13 @@
 
 <em><h5 align="center">(formerly Electron Launcher)</h5></em>
 
-[<p align="center"><img src="https://img.shields.io/github/downloads/dscalzi/HeliosLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/TeamKun/NumaLauncher/releases)</p>
+[<p align="center"><img src="https://img.shields.io/github/downloads/dscalzi/HeliosLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/mumeinosato/KokeLauncher/releases)</p>
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `NumaLauncher-setup-VERSION.exe` |
-| macOS with Intel CPU | `NumaLauncher-setup-VERSION.dmg` |
-| macOS with AppleSilicon CPU | `NumaLauncher-applesilicon-setup-VERSION.dmg` |
+| Windows x64 | `KokeLauncher-setup-VERSION.exe` |
+| macOS with Intel CPU | `KokeLauncher-setup-VERSION.dmg` |
+| macOS with AppleSilicon CPU | `KokeLauncher-applesilicon-setup-VERSION.dmg` |
 | Linux x64 | `サポート対象外` |
 
 ## Console
@@ -38,8 +38,8 @@ ctrl + shift + i
 **Clone and Install Dependencies**
 
 ```console
-> git clone https://github.com/TeamKun/NumaLauncher.git
-> cd NumaLauncher
+> git clone https://github.com/mumeinosato/KokeLauncher.git
+> cd KokeLauncher
 > npm install
 ```
 
